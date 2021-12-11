@@ -116,3 +116,9 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/ars-shi/git-task.git
    372ab29..a407e2b  main -> main
 ```
+
+# Task 2
+
+**[Task 2:3] "Задание выполнено успешно!:)"**
+
+
