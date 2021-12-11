@@ -84,3 +84,35 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
+> arsen@ars-mi MINGW64 /c/Users/arsen/Desktop/git-task (main)
+> $ git add .
+
+> arsen@ars-mi MINGW64 /c/Users/arsen/Desktop/git-task (main)
+> $ git commit -m "task 1: 11 (check status)"
+```
+[main a407e2b] task 1: 11 (check status)
+ 1 file changed, 61 insertions(+), 3 deletions(-)
+```
+
+> arsen@ars-mi MINGW64 /c/Users/arsen/Desktop/git-task (main)
+> $ git status
+```
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+```
+
+> arsen@ars-mi MINGW64 /c/Users/arsen/Desktop/git-task (main)
+> $ git push
+```
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 984 bytes | 984.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ars-shi/git-task.git
+   372ab29..a407e2b  main -> main
+```
