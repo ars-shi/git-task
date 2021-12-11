@@ -119,91 +119,10 @@ To https://github.com/ars-shi/git-task.git
 
 # Task 2
 
-**[Task 2:6] "Задание выполнено успешно!:)"**
+<<<<<<< HEAD
+**[Task 2:3] "Задание выполнено успешно!:)"**
 
+=======
+**[Task 2:3] "Задание провалено!:("**
+>>>>>>> develop
 
-
-> arsen@ars-mi MINGW64 /c/Users/arsen/Desktop/git-task (main)
-> $ git merge develop
-```
-Auto-merging TASK.MD
-CONFLICT (content): Merge conflict in TASK.MD
-Automatic merge failed; fix conflicts and then commit the result.
-```
-
-> arsen@ars-mi MINGW64 /c/Users/arsen/Desktop/git-task (main|MERGING)
-> $ git status
-```
-On branch main
-Your branch is up to date with 'origin/main'.
-
-You have unmerged paths.
-  (fix conflicts and run "git commit")
-  (use "git merge --abort" to abort the merge)
-
-Unmerged paths:
-  (use "git add <file>..." to mark resolution)
-        both modified:   TASK.MD
-
-no changes added to commit (use "git add" and/or "git commit -a")
-```
-
-> arsen@ars-mi MINGW64 /c/Users/arsen/Desktop/git-task (main|MERGING)
-> $ git mergetool
-```
-This message is displayed because 'merge.tool' is not configured.
-See 'git mergetool --tool-help' or 'git help config' for more details.
-'git mergetool' will now attempt to use one of the following tools:
-opendiff kdiff3 tkdiff xxdiff meld tortoisemerge gvimdiff diffuse diffmerge ecmerge p4merge araxis bc codecompare smerge emerge vimdiff nvimdiff
-Merging:
-TASK.MD
-
-Normal merge conflict for 'TASK.MD':
-  {local}: modified file
-  {remote}: modified file
-Hit return to start merge resolution tool (vimdiff):
-4 files to edit
-```
-
->> arsen@ars-mi MINGW64 /c/Users/arsen/Desktop/git-task (main|MERGING)
->> $ git status
-```
-On branch main
-Your branch is up to date with 'origin/main'.
-
-All conflicts fixed but you are still merging.
-  (use "git commit" to conclude merge)
-
-Changes to be committed:
-        modified:   TASK.MD
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        TASK.MD.orig
-```
-
-> arsen@ars-mi MINGW64 /c/Users/arsen/Desktop/git-task (main|MERGING)
-> $ git commit -m "Task 2 : 6 (merge)"
-```
-[main c98af2e] Task 2 : 6 (merge)
-```
-
-> arsen@ars-mi MINGW64 /c/Users/arsen/Desktop/git-task (main)
-> $ git push
-```
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 304 bytes | 304.00 KiB/s, done.
-Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To https://github.com/ars-shi/git-task.git
-   65b6c43..c98af2e  main -> main
-```
-
-> arsen@ars-mi MINGW64 /c/Users/arsen/Desktop/git-task (main)
-> $ git merge develop
-```
-Already up to date.
-```
