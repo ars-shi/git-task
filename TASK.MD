@@ -121,4 +121,3 @@ To https://github.com/ars-shi/git-task.git
 
 **[Task 2:3] "Задание выполнено успешно!:)"**
 
-
